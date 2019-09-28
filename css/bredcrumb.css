@@ -1,0 +1,39 @@
+.breadcrumb{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.breadcrumb_text {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	bottom: 88px;
+	text-align: center;
+	color: #eee;
+}
+.bradcrumb_title {
+	font-family: 'Montserrat-Bold';
+	font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #eee;
+}
+.bradcrumb_text_first, .bradcrumb_text_second {
+	font-family: 'Lato-Italic';
+	font-weight: normal;
+    font-style: italic;
+    line-height: 28px;
+}
+.bradcrumb_text_first a, .bradcrumb_text_second a {
+	text-decoration: none;
+	color: #666b6f;
+	margin: 0 5px;
+}
+.bradcrumb_text_first a:hover, .bradcrumb_text_second a:hover {
+	color: #eee;
+}

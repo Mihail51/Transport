@@ -1,0 +1,155 @@
+
+.sidebar_services_wrapper {
+	border-bottom: 1px solid #ddd;
+}
+.sideber_services_wrap {
+	width: 100%;
+	height: 1230px;
+	margin: 120px 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+}
+.sidebar_services {
+	width: calc(100%/3*2 - 15px);
+	height: 1215px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+.service_sideber {
+	width: 360px;
+}
+.service_search_ber {
+	width: 100%;
+	height: 410px;
+	padding: 40px 30px;
+	border: 1px solid #ddd;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+.service_search_button {
+	width: 298px !important;
+	height: 48px!important;
+	background: url(../img/icon/search_header.png) no-repeat 95% center;
+}
+.service_search_menu_item {
+	display: inline-block;
+	width: 100%;
+	height: 48px;
+	border-bottom: 1px solid #ddd;
+}
+#service_search {
+	width: 245px;
+	background-color: #006cb7;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+}
+.service_search_menu_link {
+	line-height: 55px;
+	text-decoration: none;
+	color: #777;
+}
+.service_search_menu_item:hover .service_search_menu_link {
+	font-family: 'Lato-Bold';
+	font-weight: bold;
+    font-style: normal;
+	padding-left: 25px;
+	color: #006cb7;
+}
+ .service_search_menu_item:hover {
+	border-bottom: 2px solid #006cb7;
+}
+.service_download_brochure {
+	width: 100%;
+	height: 197px;
+	margin: 30px 0;
+	padding: 40px 30px;
+	background: url(../img/icon/acrobat.png) no-repeat 90% center;
+	border: 1px solid #ddd;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.service_download_title {
+	display: block;
+	font-family: 'Montserrat-Regular';
+	font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+    color: #777;
+}
+.service_download_title_big {
+	display: block;
+	font-family: 'Montserrat-Medium';
+	font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    color: #006cb7;
+}
+.service_download_button {
+	display: block;
+	font-family: 'Montserrat-Bold';
+	font-weight: bold;
+    font-style: normal;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+.btn-1_d {
+	margin-top: 30px;
+}
+
+@media (max-width: 1170px) {
+	.sideber_services_wrap {
+		justify-content: space-around;
+	}
+	.sidebar_services {
+		width: 370px;
+	}
+}
+@media  (max-width: 768px) {
+	.sidebar_services {
+		height: 930px;
+	}  
+	.sideber_services_wrap {
+		height: 1600px;
+	}
+	.service_sideber {
+		margin-top: 30px;
+	}
+}
+@media (max-width: 576px) {
+	.sidebar_services, .service_sideber {
+		width: 100%;
+		max-width: 370px;
+	}
+	.service, .service_search_ber, .service_download_brochure {
+		width: calc(100% - 15px);
+		max-width: 360px;
+	}
+}
+
+/* Проверить самые малые размеры */

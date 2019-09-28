@@ -1,0 +1,82 @@
+.about {
+	width: 100%;
+	min-height: 410px;
+	margin: 120px auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.who_we, .faq {
+	width: calc(50% - 15px);
+	height: inherit;
+}
+.text_about {
+	display: inline-block;
+	margin: 24px 0;
+	line-height: 28px;
+	color: #777;
+}
+.questions_faq {
+	width: 100%;
+	height: auto;
+	margin-top: 26px;
+}
+.question_faq {
+	width: 100%;
+	margin: 15px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.title_question_faq {
+	width: 100%;
+	min-height: 48px;
+	background: url("../img/icon/plus.png") no-repeat 98% center #343434;
+	font-family: 'Lato-Bold';
+	font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    padding: 17px 25px;
+    line-height: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.question_faq[open] .title_question_faq {
+	background: url("../img/icon/minus.png") no-repeat 98% center #006cb7;
+}   
+.text_question_faq { 
+	min-height: 137px;
+	padding: 31px 46px 36px 20px;
+	background: url(../img/icon/truck.png) no-repeat 95% 90%;
+	border: 1px solid #eee;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 28px;
+	color: #777;
+}
+
+@media (max-width: 768px) {
+	.about {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.who_we, .faq {
+		width: 100%;
+	}
+	.who_we {
+		margin-bottom: 40px;
+	}
+}

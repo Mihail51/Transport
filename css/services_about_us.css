@@ -1,0 +1,144 @@
+.about {
+	width: 100%;
+	min-height: 652px;
+	padding: 120px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.send_message, .faq {
+	width: calc(50% - 15px);
+	height: inherit;
+}
+.questions_faq {
+	width: 100%;
+	height: auto;
+	margin-top: 26px;
+}
+.question_faq {
+	width: 100%;
+	margin: 15px 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.title_question_faq {
+	width: 100%;
+	min-height: 48px;
+	background: url("../img/icon/plus_blue.png") no-repeat 98% center #eee;
+	font-family: 'Lato-Bold';
+	font-weight: bold;
+    font-style: normal;
+    color: #006cb7;
+    padding: 17px 25px;
+    line-height: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.question_faq[open] .title_question_faq {
+	background: url("../img/icon/minus.png") no-repeat 98% center #006cb7;
+	color: #fff;
+}   
+.text_question_faq { 
+	min-height: 137px;
+	padding: 31px 46px 36px 20px;
+	background: url(../img/icon/truck_black.png) no-repeat 95% 90%;
+	border: 1px solid #60696f;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 28px;
+	color: #939393;
+}
+.send_message_forms {
+	margin-top: 15px;
+}
+.send_message_text {
+	display: inline-block;
+	width: calc(50% - 30px);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 28px;
+	text-align: left;
+	color: #737577;
+	border-bottom: 1px solid #737577;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+#send_message_mame, #send_message_phone, #send_message_male, #send_your_message {
+	padding-top: 15px;
+	height: 30px;
+	background-color: initial;
+	border: none;
+	color: #737576;
+}
+.send_message_name {
+	margin-right: 15px;
+}
+#send_message_mame {
+	width: 80%;
+}  
+.send_nessage_phone {
+	margin-left: 15px;
+}
+#send_message_phone {
+	width: 72%;
+}
+.send_message_male, .send_your_message {
+	width: 96% !important;
+}  
+#send_message_male {
+	width: 85%;  
+}
+#send_your_message {
+	width: 80%;
+}
+.btn-1_shor_twrap {
+	margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+	.about {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.send_message, .faq {
+		width: 100%;
+	}
+	.faq {
+		margin-bottom: 40px;
+	}
+}
+@media (max-width: 576px) {
+	.send_message_text {
+		width: 96%;
+	}
+	.send_message_name {
+	margin-right: 0;
+	}
+	.send_nessage_phone {
+		margin-left: 0;
+	}
+	#send_message_male {
+	    width: 75%;
+	}
+	#send_your_message {
+	    width: 96%;
+	}
+}

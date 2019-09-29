@@ -1,3 +1,8 @@
+body {
+	padding: 30px;
+	background: #0ff;
+}
+
 /* BUTTONS */
 .button-wrap {
 	display: inline-block;

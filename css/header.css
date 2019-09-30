@@ -1,6 +1,6 @@
 	/* Header */
 		/* header top */
-.header_top {
+.header__top {
 	width: 100%;
 	position: relative;
 	padding: 7px 0;
@@ -17,7 +17,7 @@
 	flex-wrap: wrap;
 	background:linear-gradient(225deg, #fff 26px, #333 0);
 }
-.header_top_color {
+.header__top_color {
 	position: absolute;
 	width: 100%;   
 	min-height: 80px;
@@ -26,14 +26,14 @@
 	z-index: 10;
 	background-color: #fff;
 }
-.header_info {
+.header__list_info {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
 }
-.header_info .name a {
+.header__item a {
 	font-family: 'Lato-Semibold';
 	font-size: 12px;
 	font-weight: 600;
@@ -42,16 +42,16 @@
 	color: #fff;
 	text-decoration: none;
 }
-.header_info .name:hover a {
+.header__item:hover a {
 	text-decoration: underline;
 }
-.header_info .name2, 
-.header_info .name3 {
+.header__item_help, 
+.header__item_track {
 	list-style-type: disc;
 	color: #fff;
 	margin-left: 20px;
 }
-.header_time {
+.header__info {
 	font-family: 'Lato-Light';
 	font-size: 12px;
 	font-weight: 300;
@@ -62,7 +62,7 @@
 	background: url("../img/icon/clock.png") no-repeat;
 	background-position: left center;
 }
-.header_social {
+.header__list_social {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -71,33 +71,33 @@
 	align-items: center;
 	margin: 0 30px;
 }
-.header_icon {
+.header__item_icon {
 	height: 13px;
 	margin: 0 5px;
 	overflow: hidden;
 }
-.head_fb {
+.header__item_icon_fb {
 	width: 6px;
 }
-.head_fb:hover img {
+.header__item_icon_fb:hover img {
 	margin-left: -6px;
 }
-.head_pint {
+.header__item_icon_pint {
 	width: 9px;
 }
-.head_pint:hover img {
+.header__item_icon_pint:hover img {
 	margin-left: -9px;
 }
-.head_google {
+.header__item_icon_google {
 	width: 16px;
 }
-.head_google:hover img {
+.header__item_icon_google:hover img {
 	margin-left: -16px;
 }
-.head_dr {
+.header__item_icon_dr {
 	width: 11px;
 }
-.head_dr:hover img {
+.header__item_icon_dr:hover img {
 	margin-left: -11px;
 }
 
@@ -332,10 +332,12 @@
 	}
 }
 @media (max-width: 576px) {
-	.header_top {
+	.header__top {
 		justify-content: space-around;
 	}
-	.header_info, .header_time, .header_social {
+	.header__list_info, 
+	.header__info, 
+	.header__list_social {
 		margin: 0 30px;
 	}
 	.middle_contact_info {

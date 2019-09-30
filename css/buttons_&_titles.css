@@ -1,6 +1,9 @@
 body {
-	padding: 30px;
 	background: #0ff;
+}
+.wrap {
+	display: block;
+	margin: 30px;
 }
 
 /* BUTTONS */

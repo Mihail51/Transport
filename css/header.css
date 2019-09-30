@@ -1,6 +1,6 @@
 	/* Header */
 		/* header top */
-.header__top {
+.header_top {
 	width: 100%;
 	position: relative;
 	padding: 7px 0;
@@ -17,7 +17,7 @@
 	flex-wrap: wrap;
 	background:linear-gradient(225deg, #fff 26px, #333 0);
 }
-.header__top_color {
+.header_top_color {
 	position: absolute;
 	width: 100%;   
 	min-height: 80px;
@@ -117,7 +117,7 @@
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
-.middle_contact_info {
+.header__contact-info {
 	width: 360px;
 	margin: auto;
 	display: -webkit-flex;
@@ -132,7 +132,7 @@
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
-.middle_call, .middle_email {
+.header__phones, .header__mails {
 	width: 175px;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -147,12 +147,12 @@
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
-.middle_call_text, .middle_email_text {
+.header__phone-numbers, .header__mails-adreses {
 	font-size: 12px;
 	line-height: 24px;
 	color: #7a7a7a;
 }
-.middle_call_icon, .middle_email_icon {
+.header__phone-icon, .header__mail-icon {
 	position: relative;
 	margin-right: 10px;
 	width: 36px;
@@ -160,7 +160,7 @@
 	border: 1px solid #7a7a7a;
 	border-radius: 50%;
 }
-.middle_call_icon img, .middle_email_icon img {
+.header__phone-icon img, .header__mail-icon img {
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -332,7 +332,7 @@
 	}
 }
 @media (max-width: 576px) {
-	.header__top {
+	.header_top {
 		justify-content: space-around;
 	}
 	.header__list_info, 
@@ -340,7 +340,7 @@
 	.header__list_social {
 		margin: 0 30px;
 	}
-	.middle_contact_info {
+	.header__contact-info {
 		justify-content: space-around;
 	}
 	.header_search_wrap {

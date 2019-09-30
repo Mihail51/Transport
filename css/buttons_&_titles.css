@@ -1,0 +1,121 @@
+body {
+	padding: 30px;
+	background: #0ff;
+}
+
+/* BUTTONS */
+.button-wrap {
+	display: inline-block;
+}
+.button-wrap__button {
+	-webkit-box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+   	box-sizing: border-box;   
+	border: none;    
+	font-family: 'Montserrat-Bold';
+	font-weight: bold;
+    font-style: normal;
+    font-size: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.button-wrap:hover {
+	margin-left: -4px;
+}
+.button-wrap:hover .button-wrap__button {
+	cursor: pointer;
+	
+}
+.button-wrap:hover .button-wrap__border {
+	border-left-style: solid;
+	border-left-width: 4px;
+}
+/* variable parameters */
+.button-wrap:hover .button-wrap__border_color_white {
+	border-left-color: #fff;
+}
+.button-wrap:hover .button-wrap__border_color_black {
+	border-left-color: #222;
+} 
+.button-wrap__button_width_162 {
+	width: 162px;
+}
+.button-wrap__button_width_135 {
+	width: 135px;
+}
+.button-wrap__button_height_36 {
+	height: 36px;
+}
+.button-wrap__button_height_48 {
+	height: 48px;
+}
+.button-wrap__button_color_blue {
+	background-color: #006cb7;
+	color: #fff;
+}
+.button-wrap__button_color_white {
+	background-color: #f5f5f5;
+	color: #343434;
+}
+
+
+/* TITLES */
+
+.title-wrap {
+	display: inline-block;
+}
+.title-wrap__text {
+	display: block;
+	font-family: 'Lato-Bold';
+	font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+	line-height: 24px;
+}
+.title-wrap__text_main {
+	font-family: 'Montserrat-Bold';
+	font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.title-wrap__line {
+	display: inline-block;
+	width: 15px;
+	height: 2px;
+	margin: 0;
+	border: none;
+}
+.title-wrap__line_color_blue {
+	margin: 0 3px;
+	background: #006cb7;
+}
+
+/* variable parameters */
+.title-wrap__location_center {
+	text-align: center;
+}
+.title-wrap__text_color_black {
+	color: #8a96a0;
+}
+.title-wrap__text_color_white {
+	color: #b1b0b0;
+}
+.title-wrap__text__main_color_white {
+	color: #f1f1f1;
+}
+.title-wrap__text__main_color_black {
+	color: #2c3740;
+}
+.title-wrap__line_color_black {
+	background: #222;
+}
+.title-wrap__line_color_white {
+	background: #f1f1f1;
+}
+.title-wrap__line_size_short {
+	width: 22px;
+}
+.title-wrap__line_size_normal {
+	width: 100px;
+}

@@ -3,6 +3,9 @@
 	position: relative;
 	padding: 120px 0;
 }
+.title-testimonials {
+	margin: 0 auto;
+}
 .testimonials {
 	position: relative;
 	width: 100%;

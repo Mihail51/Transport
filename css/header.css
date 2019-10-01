@@ -33,7 +33,7 @@
 	display: -o-flex;
 	display: flex;
 }
-.header__item a {
+.list_info__item a {
 	font-family: 'Lato-Semibold';
 	font-size: 12px;
 	font-weight: 600;
@@ -42,11 +42,11 @@
 	color: #fff;
 	text-decoration: none;
 }
-.header__item:hover a {
+.list_info__item:hover a {
 	text-decoration: underline;
 }
-.header__item_help, 
-.header__item_track {
+.list_info__item_help, 
+.list_info__item_track {
 	list-style-type: disc;
 	color: #fff;
 	margin-left: 20px;
@@ -71,33 +71,33 @@
 	align-items: center;
 	margin: 0 30px;
 }
-.header__item_icon {
+.list_social__item_icon {
 	height: 13px;
 	margin: 0 5px;
 	overflow: hidden;
 }
-.header__item_icon_fb {
+.list_social__item_icon_fb {
 	width: 6px;
 }
-.header__item_icon_fb:hover img {
+.list_social__item_icon_fb:hover img {
 	margin-left: -6px;
 }
-.header__item_icon_pint {
+.list_social__item_icon_pint {
 	width: 9px;
 }
-.header__item_icon_pint:hover img {
+.list_social__item_icon_pint:hover img {
 	margin-left: -9px;
 }
-.header__item_icon_google {
+.list_social__item_icon_google {
 	width: 16px;
 }
-.header__item_icon_google:hover img {
+.list_social__item_icon_google:hover img {
 	margin-left: -16px;
 }
-.header__item_icon_dr {
+.list_social__item_icon_dr {
 	width: 11px;
 }
-.header__item_icon_dr:hover img {
+.list_social__item_icon_dr:hover img {
 	margin-left: -11px;
 }
 
@@ -132,7 +132,7 @@
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
-.header__phones, .header__mails {
+.contact-info__phones, .contact-info__mails {
 	width: 175px;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -147,12 +147,12 @@
 	-o-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
-.header__phone-numbers, .header__mails-adreses {
+.phones__phone-numbers, .mails__mails-adreses {
 	font-size: 12px;
 	line-height: 24px;
 	color: #7a7a7a;
 }
-.header__phone-icon, .header__mail-icon {
+.phones__phone-icon, .mails__mail-icon {
 	position: relative;
 	margin-right: 10px;
 	width: 36px;
@@ -160,7 +160,7 @@
 	border: 1px solid #7a7a7a;
 	border-radius: 50%;
 }
-.header__phone-icon img, .header__mail-icon img {
+.phones__phone-icon img, .mails__mail-icon img {
 	position: absolute;
 	left: 50%;
 	top: 50%;

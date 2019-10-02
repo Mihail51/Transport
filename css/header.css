@@ -258,8 +258,8 @@
 .items__submenu a:hover {
 	border-bottom: 3px solid #006cb7;
 	z-index: 10;
-}
-.menu__item:hover {
+}  
+.menu-area__menu_size_big > .menu__item:hover {
 	border-bottom: 3px solid #006cb7;
 	padding-bottom: 13px;
 	z-index: 10;
@@ -317,6 +317,9 @@
 	}
 	.items__submenu {
 		margin-left: 75px;
+	}
+	.menu-area__menu_size_big > .menu__item:hover {
+		padding-bottom: 17px;
 	}
 	.menu-area_menuToggle:hover {
 		cursor: pointer;
